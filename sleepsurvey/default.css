@@ -1,0 +1,103 @@
+/*#############################################################
+Name: Blackbox
+Date: 2006-06-01
+Author: Viktor Persson
+URL: http://arcsin.se
+
+Feel free to use and modify but please provide credits.
+#############################################################*/
+
+/* Standard elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	color: #999;
+	text-decoration: none;
+}
+body {
+	background: #FFF;
+	color: #000;
+	margin: 20px 0;
+	text-align: center;
+	font: normal 0.6em sans-serif,Arial;
+}
+ul {
+	margin: 12px 0;
+}
+li {
+	list-style: url(img/li.gif);
+	margin-left: 18px;
+}
+code {
+	font: normal 1em "Lucida Sans Unicode",serif;
+	background: url(img/bgcode.gif);
+	color: #888;
+	display: block;
+	padding: 3px 6px;
+	white-space: pre;
+	margin-bottom: 12px;
+}
+
+
+/* Misc */
+div.quote {
+	margin-bottom: 12px;
+	font: normal 1.1em "Lucida Sans Unicode",serif;
+	background: url(img/quote.gif) no-repeat;
+	padding-left: 28px;
+	color: #666;
+}
+
+
+/* Main structure */
+.main {
+	background: #FFF; 
+	border: 3px double #EEE; 
+	border-color: #141414 #202020 #222 #202020; 
+	margin: 20px auto 4px auto; 
+	text-align: left;
+	width: 800px; 
+}
+
+
+/* Header */
+.gfx {
+	height: 100px;
+}
+.gfx h1 {
+	color: #000;
+	font: normal 2.8em Tahoma,sans-serif;
+	padding: 16px 20px;
+}
+
+
+/* Content */
+.content {
+	border-top: 1px solid #1A1A1A;
+	clear: both;
+}
+.content h1 {
+	margin: 0 0 4px;
+	font: bold 1.5em sans-serif,Arial;
+	color: #666;
+}
+.content p {
+	margin: 0 0 12px;
+}
+.item {
+	background: #FFFF;
+	border-color: #CCCCCCC;
+	border-style: inset;
+	font: 1.5em sans-serif,Arial;
+	padding: 8px 10px;
+}
+
+
+/* Footer */
+.footer {
+	padding: 5px;
+	background: #FFFFFFFF;
+	color: #0000000;
+} 
